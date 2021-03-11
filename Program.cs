@@ -10,9 +10,9 @@ namespace TcpClient
         private const string IpAddress = "127.0.0.1";
         private const int Port = 30001;
 
-        private const string EndConnectionPhrase = "EOF"; 
+        private const string EndConnectionPhrase = "EOF";
 
-        static void Main(string[] args)
+        static void Main()
         {
             var connectionSocket = new Socket(SocketType.Stream, ProtocolType.Tcp);
 
