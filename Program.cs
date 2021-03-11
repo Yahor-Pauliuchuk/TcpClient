@@ -6,6 +6,7 @@ namespace TcpClient
 {
     class Program
     {
+        // Server's IP address
         private const string IpAddress = "127.0.0.1";
         private const int Port = 30001;
 
